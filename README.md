@@ -1,5 +1,7 @@
 # AA Receitas
 
+[![Deploy to Firebase Hosting on merge](https://github.com/jvcss/aareceitas/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/jvcss/aareceitas/actions/workflows/firebase-hosting-merge.yml)
+
 Livro Mágio de Receitas para ajudar a reduzir dores de cólica menstrual.
 
 ### Ingredientes
@@ -50,3 +52,6 @@ Livro Mágio de Receitas para ajudar a reduzir dores de cólica menstrual.
 
 
 _**Água**_: beber até 2 litro água ao longo do dia ajuda a manter o corpo hidratado e a reduzir a retenção de água, o que pode aliviar os sintomas da cólica.
+
+
+![Tela Demonstração](/screenshot/tela_inicial.png)
