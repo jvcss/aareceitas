@@ -63,7 +63,7 @@ class HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Receitas para Cólica Menstrual'),
+        title: const Text('Receitas para Alívio da Cólica Menstrual'),
       ),
       body: Center(
         child: Card(
