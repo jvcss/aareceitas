@@ -31,6 +31,7 @@ class HomePage extends StatefulWidget {
 class HomePageState extends State<HomePage> {
 
   late Receita receitaAtual;
+  int ultimoIndice = -1;
 
   @override
   void initState() {
@@ -40,6 +41,14 @@ class HomePageState extends State<HomePage> {
 
   Receita _obterReceitaAleatoria() {
     Random random = Random();
+    int indiceAleatorio;
+    // Garante que a próxima receita não será a mesma que a atual
+    do {
+      indiceAleatorio = random.nextInt(receitas.length);
+    } while (indiceAleatorio == ultimoIndice);
+
+    ultimoIndice = indiceAleatorio;
+
     return receitas[random.nextInt(receitas.length)];
   }
 
