@@ -1,11 +1,11 @@
 {
-    "name": "aareceitas",
-    "short_name": "aareceitas",
+    "name": "AAReceitas",
+    "short_name": "AAReceitas",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#E3D9FF",
+    "theme_color": "#FFD1DC",
+    "description": "Receitas para você alivar cólicas menstruais.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
