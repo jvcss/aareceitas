@@ -49,7 +49,7 @@ class HomePageState extends State<HomePage> {
 
     ultimoIndice = indiceAleatorio;
 
-    return receitas[random.nextInt(receitas.length)];
+    return receitas[indiceAleatorio];
   }
 
   void _exibirProximaReceita() {
