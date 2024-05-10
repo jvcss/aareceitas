@@ -27,3 +27,4 @@ jobs:
           projectId: imagine-software
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
