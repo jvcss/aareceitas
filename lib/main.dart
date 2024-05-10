@@ -98,7 +98,7 @@ class HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _exibirProximaReceita,
-        tooltip: 'Próxima Receita',
+        tooltip: 'Outra Receita',
         child: const Icon(Icons.flare),
       ),
     );
